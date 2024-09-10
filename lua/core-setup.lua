@@ -4,8 +4,8 @@ local opt = vim.opt
 vim.g.mapleader = " "
 
 -- disable netrw
--- vim.g.loaded_netrw = 1
--- vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 -- options --
 opt.expandtab = true
@@ -31,3 +31,5 @@ opt.exrc = true
 -- netrw shortcut
 vim.keymap.set("n", '<C-n>', '<esc><cmd>Explore<cr>')
 vim.keymap.set("i", '<C-n>', '<esc><cmd>Explore<cr>')
+
+
