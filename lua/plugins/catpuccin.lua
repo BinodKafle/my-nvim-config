@@ -22,7 +22,11 @@ return {
     lazy = false,
     config = function()
       local lualine = require("lualine")
-      lualine.setup({})
+      lualine.setup({
+        options = {
+          theme = "catppuccin", 
+        },
+      })
     end
   },
 }
