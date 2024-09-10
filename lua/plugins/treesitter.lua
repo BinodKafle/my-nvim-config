@@ -9,9 +9,10 @@ return {
       configs.setup({
         ensure_installed = {
           "c", "lua", "javascript", "html",
-          "go", "dart", "typescript", "python",
+          "go", "typescript", "python",
           "dart", "vimdoc", "vim",
         },
+        auto_install = true,
         highlight = { enable = true },
         indent = {
           enable = true,
