@@ -9,9 +9,6 @@ return {
       catpuccin.setup({
         flavour = "mocha",
         transparent_background = true,
-        integrations = {
-          lualine = true, 
-        },
       })
       vim.opt.termguicolors = true
       vim.cmd.colorscheme("catppuccin-mocha")
