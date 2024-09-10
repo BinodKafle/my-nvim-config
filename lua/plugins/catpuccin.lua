@@ -7,7 +7,11 @@ return {
     config = function()
       local catpuccin = require("catppuccin")
       catpuccin.setup({
-        transparent_background = true
+        flavour = "mocha",
+        transparent_background = true,
+        integrations = {
+          lualine = true, 
+        },
       })
       vim.opt.termguicolors = true
       vim.cmd.colorscheme("catppuccin-mocha")
